@@ -35,3 +35,36 @@ button {
 button:hover {
     background: #555;
 }
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav {
+    background: #444;
+    overflow: hidden;
+}
+
+.nav a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+.nav a:hover {
+    background: #555;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
